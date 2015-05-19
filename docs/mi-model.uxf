@@ -71,7 +71,8 @@ questions: List&lt;Question&gt;
 id
 questions
 answers
-premium</panel_attributes>
+premium
+address</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -204,7 +205,7 @@ address
       <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
-m1=0..n</panel_attributes>
+m1=0..1</panel_attributes>
     <additional_attributes>10.0;10.0;80.0;10.0</additional_attributes>
   </element>
   <element>
@@ -326,5 +327,17 @@ fg=blue</panel_attributes>
     <panel_attributes>Risk is rated based on risk answers.
 fg=blue</panel_attributes>
     <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>700</x>
+      <y>270</y>
+      <w>50</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=0..1</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
   </element>
 </diagram>
