@@ -5,7 +5,7 @@
     <id>UMLClass</id>
     <coordinates>
       <x>440</x>
-      <y>350</y>
+      <y>360</y>
       <w>130</w>
       <h>110</h>
     </coordinates>
@@ -22,7 +22,7 @@ risks
     <id>UMLClass</id>
     <coordinates>
       <x>850</x>
-      <y>350</y>
+      <y>360</y>
       <w>140</w>
       <h>170</h>
     </coordinates>
@@ -43,7 +43,7 @@ endDate
     <id>UMLClass</id>
     <coordinates>
       <x>480</x>
-      <y>590</y>
+      <y>600</y>
       <w>170</w>
       <h>160</h>
     </coordinates>
@@ -62,9 +62,9 @@ questions: List&lt;Question&gt;
     <id>UMLClass</id>
     <coordinates>
       <x>640</x>
-      <y>350</y>
+      <y>360</y>
       <w>140</w>
-      <h>110</h>
+      <h>170</h>
     </coordinates>
     <panel_attributes>Risk
 --
@@ -72,6 +72,7 @@ id
 questions
 answers
 premium
+type
 address</panel_attributes>
     <additional_attributes/>
   </element>
@@ -79,7 +80,7 @@ address</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>730</x>
-      <y>590</y>
+      <y>600</y>
       <w>190</w>
       <h>160</h>
     </coordinates>
@@ -96,7 +97,7 @@ choice: String ("single/multi")
     <id>Relation</id>
     <coordinates>
       <x>910</x>
-      <y>270</y>
+      <y>280</y>
       <w>50</w>
       <h>100</h>
     </coordinates>
@@ -108,7 +109,7 @@ m1=0..n</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>560</x>
-      <y>390</y>
+      <y>400</y>
       <w>100</w>
       <h>40</h>
     </coordinates>
@@ -120,7 +121,7 @@ m1=0..n</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>640</x>
-      <y>620</y>
+      <y>630</y>
       <w>110</w>
       <h>40</h>
     </coordinates>
@@ -131,32 +132,32 @@ m1=2..n</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>590</x>
-      <y>450</y>
-      <w>100</w>
-      <h>160</h>
+      <x>640</x>
+      <y>520</y>
+      <w>50</w>
+      <h>100</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 m1=0..n</panel_attributes>
-    <additional_attributes>10.0;140.0;80.0;10.0</additional_attributes>
+    <additional_attributes>10.0;80.0;30.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>730</x>
-      <y>450</y>
-      <w>100</w>
-      <h>160</h>
+      <y>520</y>
+      <w>70</w>
+      <h>100</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 m1=0..n</panel_attributes>
-    <additional_attributes>70.0;140.0;10.0;10.0</additional_attributes>
+    <additional_attributes>30.0;80.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
       <x>640</x>
-      <y>180</y>
+      <y>190</y>
       <w>140</w>
       <h>100</h>
     </coordinates>
@@ -172,7 +173,7 @@ country
     <id>Text</id>
     <coordinates>
       <x>1010</x>
-      <y>350</y>
+      <y>360</y>
       <w>220</w>
       <h>80</h>
     </coordinates>
@@ -184,7 +185,7 @@ fg=blue</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>850</x>
-      <y>180</y>
+      <y>190</y>
       <w>140</w>
       <h>100</h>
     </coordinates>
@@ -200,7 +201,7 @@ address
     <id>Relation</id>
     <coordinates>
       <x>770</x>
-      <y>230</y>
+      <y>240</y>
       <w>100</w>
       <h>40</h>
     </coordinates>
@@ -212,7 +213,7 @@ m1=0..1</panel_attributes>
     <id>Text</id>
     <coordinates>
       <x>1010</x>
-      <y>430</y>
+      <y>440</y>
       <w>210</w>
       <h>60</h>
     </coordinates>
@@ -224,7 +225,7 @@ fg=blue</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>770</x>
-      <y>380</y>
+      <y>390</y>
       <w>100</w>
       <h>40</h>
     </coordinates>
@@ -236,7 +237,7 @@ m1=1..n</panel_attributes>
     <id>Text</id>
     <coordinates>
       <x>1010</x>
-      <y>230</y>
+      <y>240</y>
       <w>220</w>
       <h>120</h>
     </coordinates>
@@ -248,7 +249,7 @@ fg=blue</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>640</x>
-      <y>650</y>
+      <y>660</y>
       <w>110</w>
       <h>40</h>
     </coordinates>
@@ -260,7 +261,7 @@ m1=1</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>640</x>
-      <y>680</y>
+      <y>690</y>
       <w>110</w>
       <h>40</h>
     </coordinates>
@@ -272,7 +273,7 @@ m1=0..n</panel_attributes>
     <id>Text</id>
     <coordinates>
       <x>1010</x>
-      <y>500</y>
+      <y>510</y>
       <w>230</w>
       <h>70</h>
     </coordinates>
@@ -284,7 +285,7 @@ fg=blue</panel_attributes>
     <id>Text</id>
     <coordinates>
       <x>480</x>
-      <y>750</y>
+      <y>760</y>
       <w>440</w>
       <h>60</h>
     </coordinates>
@@ -320,7 +321,7 @@ fg=blue</panel_attributes>
     <id>Text</id>
     <coordinates>
       <x>480</x>
-      <y>810</y>
+      <y>820</y>
       <w>440</w>
       <h>30</h>
     </coordinates>
@@ -332,12 +333,24 @@ fg=blue</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>700</x>
-      <y>270</y>
+      <y>280</y>
       <w>50</w>
       <h>100</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 m1=0..1</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>220</x>
+      <y>360</y>
+      <w>220</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>Product is a group for risks
+fg=blue</panel_attributes>
+    <additional_attributes/>
   </element>
 </diagram>
