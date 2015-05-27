@@ -30,7 +30,7 @@ risks
 --
 id
 holder
-risks
+covers
 totalPremium
 isBound
 isCancelled
@@ -219,7 +219,7 @@ m1=0..1</panel_attributes>
       <w>210</w>
       <h>60</h>
     </coordinates>
-    <panel_attributes>totalPremium always equals to the sum of risk premiums.
+    <panel_attributes>totalPremium always equals to the sum of cover premiums.
 fg=blue</panel_attributes>
     <additional_attributes/>
   </element>
@@ -276,10 +276,10 @@ m1=0..n</panel_attributes>
     <coordinates>
       <x>840</x>
       <y>430</y>
-      <w>230</w>
-      <h>70</h>
+      <w>240</w>
+      <h>40</h>
     </coordinates>
-    <panel_attributes>Contract can hold multiple risks under different products.
+    <panel_attributes>Contract can hold multiple covers.
 fg=blue</panel_attributes>
     <additional_attributes/>
   </element>
@@ -327,7 +327,7 @@ fg=blue</panel_attributes>
       <w>440</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>Risk is rated based on risk answers.
+    <panel_attributes>Cover is rated based on the answers provided.
 fg=blue</panel_attributes>
     <additional_attributes/>
   </element>
@@ -346,12 +346,12 @@ m1=0..1</panel_attributes>
   <element>
     <id>Text</id>
     <coordinates>
-      <x>70</x>
-      <y>250</y>
+      <x>240</x>
+      <y>200</y>
       <w>150</w>
       <h>50</h>
     </coordinates>
-    <panel_attributes>Product is a group for risks
+    <panel_attributes>Product is a group of covers
 fg=blue</panel_attributes>
     <additional_attributes/>
   </element>
@@ -379,19 +379,19 @@ wording
       <h>280</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
-m1=1..n</panel_attributes>
+m1=0..n</panel_attributes>
     <additional_attributes>10.0;50.0;10.0;10.0;520.0;10.0;520.0;260.0;490.0;260.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>50</x>
+      <x>180</x>
       <y>110</y>
-      <w>410</w>
+      <w>280</w>
       <h>310</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
-m1=1..n</panel_attributes>
-    <additional_attributes>190.0;10.0;10.0;10.0;10.0;290.0;390.0;290.0</additional_attributes>
+m1=0..n</panel_attributes>
+    <additional_attributes>60.0;10.0;10.0;10.0;10.0;290.0;260.0;290.0</additional_attributes>
   </element>
 </diagram>
